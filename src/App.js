@@ -21,7 +21,6 @@ function App() {
 
     if (searchSameName) {
       alert(`${task.name} is already in contacts`);
-      <div>Привет</div>;
     } else if (task.name.length === 0) {
       alert("Fields must be filled!");
     } else {
